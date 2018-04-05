@@ -15,7 +15,6 @@ public:
 	PShipTiny();
 	virtual ~PShipTiny();
 
-	PShipTiny(double width, double height, double speed);
 	const double getWidth() const override;
 	const double getHeight() const override;
 	const double getSpeed() const override;

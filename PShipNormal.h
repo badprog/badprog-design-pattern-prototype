@@ -15,8 +15,6 @@ public:
 	PShipNormal();
 	virtual ~PShipNormal();
 	
-	PShipNormal(double width, double height, double speed);
-
 	virtual const double getWidth() const override;
 	virtual const double getHeight() const override;
 	virtual const double getSpeed() const override;
